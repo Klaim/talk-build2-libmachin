@@ -21,6 +21,9 @@ int main ()
   if(foo(42) != 42)
     throw "wrong value";
 
+  if(foo(string("kikoo")) != string("kikoo, haha!"))
+    throw "wrong value, haha!";
+
   // Empty name.
   //
   try

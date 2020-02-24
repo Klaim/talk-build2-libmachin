@@ -15,4 +15,7 @@ namespace machin
 
   template<class T>
   T foo(T value) { return value; }
+
+  template<>
+  std::string foo(std::string value) { return value + ", haha!"; }
 }
