@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libmachin/
+}
+
+export $out_root/libmachin/$import.target

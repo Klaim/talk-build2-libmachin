@@ -1,0 +1,3 @@
+# libmachin
+
+C++ library
