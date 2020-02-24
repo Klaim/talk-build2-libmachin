@@ -18,4 +18,7 @@ namespace machin
 
   template<>
   std::string foo(std::string value) { return value + ", haha!"; }
+
+  LIBMACHIN_SYMEXPORT
+  void kikoo();
 }
