@@ -12,4 +12,7 @@ namespace machin
   //
   LIBMACHIN_SYMEXPORT void
   say_hello (std::ostream&, const std::string& name);
+
+  template<class T>
+  T foo(T value) { return value; }
 }

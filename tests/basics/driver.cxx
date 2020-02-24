@@ -18,6 +18,9 @@ int main ()
     assert (o.str () == "Salut, World!\n");
   }
 
+  if(foo(42) != 42)
+    throw "wrong value";
+
   // Empty name.
   //
   try
