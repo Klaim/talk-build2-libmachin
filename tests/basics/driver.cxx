@@ -15,7 +15,7 @@ int main ()
   {
     ostringstream o;
     say_hello (o, "World");
-    assert (o.str () == "Hello, World!\n");
+    assert (o.str () == "Salut, World!\n");
   }
 
   // Empty name.

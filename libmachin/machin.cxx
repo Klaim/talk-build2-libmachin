@@ -12,6 +12,6 @@ namespace machin
     if (n.empty ())
       throw invalid_argument ("empty name");
 
-    o << "Hello, " << n << '!' << endl;
+    o << "Salut, " << n << '!' << endl;
   }
 }
